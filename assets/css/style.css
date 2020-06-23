@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #f8f8f8;
+  color: #333;
+}
+
+.page-enter-active,.page-leave-active{
+  transition: opacity 0.5s;
+}
+.page-enter,.page-leave{
+  opacity: 0;
+}
+
+
+.only-enter-active,.only-leave-active{
+  transition: opacity 1s;
+}
+.only-enter,.only-leave{
+  opacity: 0;
+}
